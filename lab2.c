@@ -139,10 +139,6 @@ for(i=0;i < 16;i++)
 ADMUX = 0x40;
 ADCSRA = 0xe0;
 
-// Jakub Olejnik 241550
-// Aleksander Pucher 241556
-// Agnieszka Ganowicz 241494
-
 while(1)
 	{
 		_pv = ADC;
